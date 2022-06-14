@@ -13,8 +13,6 @@ app.get("/check", (req, res) => {
     }
 });
 
-
-
 app.use((req, res) => {
     res.status(400).send(`<p>para verificar un palídromo debes utilizar el siguiente formato de ruta:<br>check?palabra=tupalíndromo</p>`);
     //console.log(res.status(404).statusMessage);
