@@ -7,6 +7,7 @@
     "s1": "nodemon server1.js",
     "s2": "nodemon server2.js",
     "s3": "nodemon server3.js",
+    "s4": "nodemon server4.js",
     "s6": "nodemon server6.js"
   },
   "repository": {
