@@ -4,7 +4,10 @@
   "description": "Nota: para estos ejercicios no se recomienda la documentación oficial de Express (para la mayoría de los ejercicios), ya que es demasiado genérica. En su lugar: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express",
   "main": "server6.js",
   "scripts": {
-    "start": "nodemon server1.js"
+    "s1": "nodemon server1.js",
+    "s2": "nodemon server2.js",
+    "s3": "nodemon server3.js",
+    "s6": "nodemon server6.js"
   },
   "repository": {
     "type": "git",
