@@ -8,6 +8,7 @@
     "s2": "nodemon server2.js",
     "s3": "nodemon server3.js",
     "s4": "nodemon server4.js",
+    "s5": "nodemon server5.js",
     "s6": "nodemon server6.js"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/fataranto/express-exercise-students#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "palindrome-plus": "^1.0.2"
   }
 }

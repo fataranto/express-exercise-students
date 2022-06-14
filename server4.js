@@ -15,7 +15,7 @@ app.get('/check/:pal', function (req, res) {
 
 
 app.use((req, res) => {
-    res.status(400).send(`<p>para verificar un palídromo debes utilizar el siguiente formato de ruta:<br>localhost:3000/check/tupalíndromo</p>`);
+    res.status(400).send(`<p>para verificar un palídromo debes utilizar el siguiente formato de ruta:<br>check/tupalíndromo</p>`);
     //console.log(res.status(404).statusMessage);
 })
 
