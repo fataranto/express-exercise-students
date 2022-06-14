@@ -1,0 +1,24 @@
+{
+  "name": "express-exercise-students",
+  "version": "1.0.0",
+  "description": "Nota: para estos ejercicios no se recomienda la documentación oficial de Express (para la mayoría de los ejercicios), ya que es demasiado genérica. En su lugar: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express",
+  "main": "server6.js",
+  "scripts": {
+    "start": "nodemon server1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fataranto/express-exercise-students.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fataranto/express-exercise-students/issues"
+  },
+  "homepage": "https://github.com/fataranto/express-exercise-students#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
