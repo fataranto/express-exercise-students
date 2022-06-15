@@ -1,6 +1,9 @@
 const express = require('express')
 
 const app = express()
+app.use(express.static('./server-6-static-files')); //para cargar hojas de estilos
+app.use(express.json()); //para formatear JSON
+app.use(express.urlencoded({extended: true})); //para obtner datos del formulario via POST
 
 app.get('/formulario', (req, res) => {
     res.status(200).send(`
@@ -24,6 +27,11 @@ app.get('/formulario', (req, res) => {
   </body>
     </html>
   `)
+})
+
+app.post('/', function (req, res) {
+  console.log(req.body.name, req.body.email, req.body.message );
+  res.json(req.body);
 })
 
 app.use((req, res) => {
